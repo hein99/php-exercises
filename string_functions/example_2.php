@@ -1,3 +1,10 @@
+<?php
+/**
+ * This example is to practice some powerful and useful String functions
+ * by creating Wrap The Text Line process
+ * 
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,7 +66,9 @@
         $start_position += $original_line_length + 1;
     }
 
+    echo '<h1>Original Text</h1>';
     echo '<pre>' . $original_text . '</pre>';
+    echo '<h1>Wrapped Text</h1>';
     echo '<pre>' . $wrapped_text . '</pre>';
 
     ?>

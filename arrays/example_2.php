@@ -1,3 +1,9 @@
+<?php
+/**
+ * This example is for learning a powerful array manipulate function array_splice();
+ * 
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

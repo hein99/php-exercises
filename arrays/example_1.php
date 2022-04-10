@@ -1,3 +1,9 @@
+<?php
+/**
+ * This example is to practise create array syntax, and manipulate array with foreach function
+ * 
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

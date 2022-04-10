@@ -1,3 +1,9 @@
+<?php
+/**
+ * This is Fibonacci sequence example to practise about the concept of loops and decisions
+ * 
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +14,7 @@
     <style>
         table{
             border-collapse: collapse;
+            width: 10%;
         }
 
         table thead{
@@ -21,6 +28,7 @@
     </style>
 </head>
 <body>
+    <h1>Fibonacci sequence using iteration</h1>
     <table>
         <thead>
             <tr>

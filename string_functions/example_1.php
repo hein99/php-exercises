@@ -1,3 +1,10 @@
+<?php
+/**
+ * This example is to practice some useful String functions
+ * by creating Justify Text Line process
+ * 
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,8 +55,9 @@
         $start_of_line += $original_line_length + 1;
     }
 
-
+    echo '<h1>Original Text</h1>';
     echo '<pre>' . $original_text . '</pre>';
+    echo '<h1>Justified Text</h1>';
     echo '<pre>' . $justified_text . '</pre>';
     ?>
 </body>

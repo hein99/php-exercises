@@ -1,3 +1,9 @@
+<?php
+/**
+ * This example is to practice concept of multidimensional array and adding elements into arrays
+ * 
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

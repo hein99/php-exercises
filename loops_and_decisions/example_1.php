@@ -1,3 +1,11 @@
+<?php
+/**
+ * This example is for practicing concept of Loops(do, while and for) and decision code(if, else)
+ * by creating a Pigeon(%) come back Home(+) project
+ * 
+ */
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
