@@ -9,7 +9,8 @@
 <body>
     <?php
     $original_text = <<<END_TEXT
-    I am Hein Kaung Khant, 23 years old right now. I started entering the IT field in 2016 as a freshman at WYTU, Myanmar. Although I have to attend for 6 years to graduate with a Bachelor of Engineering in IT, as the cases of COVID-19 and Military coup I cannot finish my goal. Now, I decided to dropout from WYTU and go abroad to start my career as a web developer. Since the second year of university, I have created many websites for my brother business and my brother's friends. With the money that get from working as a junior web developer, I will try to pursue a degree about IT. Especially, I really want to pursue a software developer degree.
+    Myanmar (formerly Burma) is a Southeast Asian nation of more than 100 ethnic groups, bordering India, Bangladesh, China, Laos and Thailand. 
+    Yangon (formerly Rangoon), the country's largest city, is home to bustling markets, numerous parks and lakes, and the towering, gilded Shwedagon Pagoda, which contains Buddhist relics and dates to the 6th century.
     
     END_TEXT;
 
