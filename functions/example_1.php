@@ -36,7 +36,7 @@
     echo "<h2>Original Text:</h2>";
     echo "<pre>$original_text</pre>";
 
-    $original_text = preg_replace( "/[\,\.]/", '', $original_text );
+    $original_text = preg_replace( "/[\,\.()]/", '', $original_text );
     $words_array = array_unique( preg_split( "/[ \n\r\t]+/", $original_text ) );
     // usort( $words_array, function( $a, $b ) { return strlen($a) - strlen($b); });
     usort( $words_array, fn( $a, $b ) => strlen($a) - strlen($b) );

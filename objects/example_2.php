@@ -1,3 +1,9 @@
+<?php
+/**
+ * This example is to practice the using of PHP's some magic functions( __get(), __set() )
+ * 
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

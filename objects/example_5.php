@@ -1,3 +1,9 @@
+<?php
+/**
+ * This example is to practice the overriding Methods
+ * 
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

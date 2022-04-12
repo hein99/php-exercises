@@ -1,3 +1,9 @@
+<?php
+/**
+ * This example is to practice Creating and Using an Interface
+ * 
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

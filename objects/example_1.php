@@ -52,7 +52,7 @@
         echo 'Current speed: ' . $myCar->getSpeed() . 'mph <br>';
     }
 
-    echo '<p><b>Oop!</b> My car reached top speed! I have to slow down...</p>';
+    echo '<p><b>Oops!</b> My car reached top speed! I have to slow down...</p>';
 
     while( $myCar->brake() ) {
         echo 'Current speed: ' . $myCar->getSpeed() . 'mph <br>';

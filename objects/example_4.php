@@ -1,3 +1,9 @@
+<?php
+/**
+ * This example is to practice concept of Inheritance, Abstract Classes and Methods
+ * 
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -87,7 +93,7 @@
 
     echo '<h2>Square</h2>';
     echo '<p>This square has a side length of ' . $aSquare->getSideLength() . '.</p>';
-    echo '<p>It is ' . $aSquare->getColor . ' and it is ' . (( $aSquare->isFilled() ) ? "filled" : "hollow") . '.</p>';
+    echo '<p>It is ' . $aSquare->getColor() . ' and it is ' . (( $aSquare->isFilled() ) ? "filled" : "hollow") . '.</p>';
     echo '<p>The area of the square is ' . $aSquare->getArea() . '.</p>';
 
     ?>

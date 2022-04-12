@@ -1,3 +1,9 @@
+<?php
+/**
+ * This example is to practice the using of PHP's some magic functions ( __call() )
+ * 
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
