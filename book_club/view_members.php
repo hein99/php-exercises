@@ -1,7 +1,6 @@
 <?php
 
 require_once( 'common.inc.php' );
-require_once( 'Member.class.php' );
 
 $start = isset( $_GET['start'] ) ? (int)$_GET['start'] : 0;
 $order = isset( $_GET['order'] ) ? preg_replace( '/[^_a-zA-z]/', '', $_GET['order'] ) : 'username';
@@ -54,7 +53,7 @@ displayPageHeader( 'Book club members' );
     </tbody>
 </table>
 
-<div class="table-nav">
+<div class="nav-under-table">
     <?php if( $start > 0 ) : ?>
         <a href="view_members.php?start=<?php echo max($start - ROW_OF_MEMBERS, 0) . '&amp;order=' . $order ?>">Previous Page</a>
     <?php endif; ?>

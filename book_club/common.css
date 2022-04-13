@@ -11,8 +11,10 @@ table tr:nth-child(even) {
     background-color: #efefef;
 }
 
-.table-nav{
+.nav-under-table{
+    width: 20%;
     margin-top: 10px;
+    text-align: center;
 }
 
 dl{
@@ -29,4 +31,18 @@ dt, dd{
 
 dd{
     margin: 0;
+}
+
+.register-form, .login-form{
+    width: 30%;
+}
+
+.register-form label, .register-form input, .login-form label, .login-form input{
+    display: inline-block;
+    width: 45%;
+    margin-top: 10px;
+}
+
+.login-form input[type="submit"]{
+    margin-left: 48%;
 }

@@ -1,8 +1,6 @@
 <?php
 
 require_once('common.inc.php');
-require_once('Member.class.php');
-require_once('LogEntry.class.php');
 
 $member_id = isset( $_GET['member_id'] ) ? (int)$_GET['member_id'] : 0;
 
@@ -57,6 +55,10 @@ displayPageHeader( 'View member: ' . $member->getValueEncoded( 'first_name' ) . 
         <?php endforeach; ?>
     </tbody>
 </table>
+
+<div class="nav-under-table">
+    <a href="javascript: history.go(-1);">Back</a>
+</div>
 
 <?php
 displayPageFooter();
