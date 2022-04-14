@@ -44,7 +44,7 @@ displayPageHeader( 'Book club members' );
         <?php foreach( $members as $member ) : ?>
             <tr>
                 <td>
-                    <a href="view_member.php?member_id=<?php echo $member->getValueEncoded("id") ?>"><?php echo $member->getValueEncoded("username") ?></a>
+                    <a href="view_member.php?member_id=<?php echo $member->getValueEncoded("id") ?>&amp;start=<?php echo $start ?>&amp;order=<?php echo $order ?>"><?php echo $member->getValueEncoded("username") ?></a>
                 </td>
                 <td><?php echo $member->getValueEncoded("first_name") ?></td>
                 <td><?php echo $member->getValueEncoded("last_name") ?></td>

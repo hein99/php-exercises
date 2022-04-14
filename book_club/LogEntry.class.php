@@ -65,6 +65,21 @@ class LogEntry extends DataObject {
             die( 'Query failed: ' . $e->getMessage() );
         }
     }
+
+    public static function deleteAllForMember( $member_id ) {
+        $conn = parent::connect();
+        $sql = "DELETE FROM " . TB_ACCESS_LOG . " WHERE member_id = :member_id";
+
+        try {
+            $statement = $conn->prepare( $sql );
+            $statement->bindValue( ':member_id', $member_id, PDO::PARAM_INT );
+            $statement->execute();
+            parent::disconnect( $conn );
+        } catch( PDOException $e ) {
+            parent::disconnect( $conn );
+            die( 'Query failed: ' . $e->getMessage() );
+        }
+    }
 }
 
 ?>

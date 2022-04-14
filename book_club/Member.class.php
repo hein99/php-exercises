@@ -162,6 +162,62 @@ class Member extends DataObject {
         }
     }
 
+    public function update() {
+        $conn = parent::connect();
+        $passwordSql = $this->data['password'] ? "password = password(:password)," : '';
+
+        $sql = "UPDATE " . TB_MEMBERS . " SET 
+            username = :username,
+            $passwordSql
+            first_name = :first_name,
+            last_name = :last_name,
+            join_date = :join_date,
+            gender = :gender,
+            favorite_genre = :favorite_genre,
+            email_address = :email_address,
+            other_interests = :other_interests
+
+            WHERE id = :id
+        ";
+
+        try {
+            $statement = $conn->prepare( $sql );
+            $statement->bindValue( ':id', $this->data['id'], PDO::PARAM_INT );
+            $statement->bindValue( ':username', $this->data['username'], PDO::PARAM_STR );
+            if( $this->data['password'] ) $statement->bindValue( ':password', $this->data['password'], PDO::PARAM_STR );
+            $statement->bindValue( ':first_name', $this->data['first_name'], PDO::PARAM_STR );
+            $statement->bindValue( ':last_name', $this->data['last_name'], PDO::PARAM_STR );
+            $statement->bindValue( ':join_date', $this->data['join_date'], PDO::PARAM_STR );
+            $statement->bindValue( ':gender', $this->data['gender'], PDO::PARAM_STR );
+            $statement->bindValue( ':favorite_genre', $this->data['favorite_genre'], PDO::PARAM_STR );
+            $statement->bindValue( ':email_address', $this->data['email_address'], PDO::PARAM_STR );
+            $statement->bindValue( ':other_interests', $this->data['other_interests'], PDO::PARAM_STR );
+            $statement->execute();
+            
+            parent::disconnect( $conn );
+        } catch( PDOException $e ) {
+            parent::disconnect( $conn );
+            echo $sql . '<br>';
+            print_r( $this->data );
+            die( '<br>Query failed: ' . $e->getMessage() );
+        }
+    }
+
+    public function delete() {
+        $conn = parent::connect();
+        $sql = "DELETE FROM " . TB_MEMBERS . " WHERE id = :id";
+
+        try {
+            $statement = $conn->prepare( $sql );
+            $statement->bindValue( ':id', $this->data['id'], PDO::PARAM_INT );
+            $statement->execute();
+            parent::disconnect( $conn );
+        } catch( PDOException $e ) {
+            parent::disconnect( $conn );
+            die( 'Query failed: ' . $e->getMessage() );
+        }
+    }
+
     public function authenticate() {
         $conn = parent::connect();
         $sql = "SELECT * FROM " . TB_MEMBERS . ' WHERE username = :username AND password = password(:password)';
