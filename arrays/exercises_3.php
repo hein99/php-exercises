@@ -1,6 +1,6 @@
 <?php
 /**
- * This example is to practice concept of multidimensional array and adding elements into arrays
+ * This exercise is to practice concept of multidimensional array and adding elements into arrays
  * 
  */
 ?>

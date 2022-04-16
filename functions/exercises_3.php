@@ -1,6 +1,6 @@
 <?php
 /**
- * This example is display the Fibonacci Sequence using Recusive Function method
+ * This exercise is display the Fibonacci Sequence using Recusive Function method
  * 
  */
 ?>

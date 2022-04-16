@@ -1,6 +1,6 @@
 <?php
 /**
- * This example is to practice the overriding Methods
+ * This exercise is to practice the overriding Methods
  * 
  */
 ?>

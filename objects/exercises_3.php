@@ -1,6 +1,6 @@
 <?php
 /**
- * This example is to practice the using of PHP's some magic functions ( __call() )
+ * This exercise is to practice the using of PHP's some magic functions ( __call() )
  * 
  */
 ?>

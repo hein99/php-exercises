@@ -1,6 +1,6 @@
 <?php
 /**
- * This example uses Anonymous Function syntax, Arrow Function syntax and Callback Function concept
+ * This exercise uses Anonymous Function syntax, Arrow Function syntax and Callback Function concept
  * 
  */
 ?>

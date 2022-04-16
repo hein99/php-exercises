@@ -1,6 +1,6 @@
 <?php
 /**
- * This is Fibonacci sequence example to practise about the concept of loops and decisions
+ * This is displaying Fibonacci sequence exercise to practise about the concept of loops and decisions
  * 
  */
 ?>

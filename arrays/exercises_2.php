@@ -1,6 +1,6 @@
 <?php
 /**
- * This example is for learning a powerful array manipulate function array_splice();
+ * This exercise is for learning a powerful array manipulate function array_splice();
  * 
  */
 ?>

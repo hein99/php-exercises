@@ -1,6 +1,6 @@
 <?php
 /**
- * This example is to practice some powerful and useful String functions
+ * This exercise is to practice some powerful and useful String functions
  * by creating Wrap The Text Line process
  * 
  */

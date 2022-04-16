@@ -1,6 +1,6 @@
 <?php
 /**
- * This example is to practice the basic concept of OOP by creating simple car simulator
+ * This exercise is to practice the basic concept of OOP by creating simple car simulator
  * 
  */
 ?>

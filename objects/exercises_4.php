@@ -1,6 +1,6 @@
 <?php
 /**
- * This example is to practice concept of Inheritance, Abstract Classes and Methods
+ * This exercise is to practice concept of Inheritance, Abstract Classes and Methods
  * 
  */
 ?>

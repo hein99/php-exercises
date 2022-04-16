@@ -1,6 +1,6 @@
 <?php
 /**
- * This example is to practice using of constructor and destructor method
+ * This exercise is to practice using of constructor and destructor method
  * 
  */
 ?>

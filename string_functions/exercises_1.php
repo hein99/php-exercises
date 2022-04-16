@@ -1,6 +1,6 @@
 <?php
 /**
- * This example is to practice some useful String functions
+ * This exercise is to practice some useful String functions
  * by creating Justify Text Line process
  * 
  */

@@ -1,6 +1,6 @@
 <?php
 /**
- * This example is to practice Creating and Using an Interface
+ * This exercise is to practice Creating and Using an Interface
  * 
  */
 ?>
